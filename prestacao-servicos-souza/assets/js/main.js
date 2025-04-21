@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Mobile Menu
 function initMobileMenu() {
-    const menuButton = document.querySelector('.mobile-menu button');
+    const menuButton = document.getElementById('mobile-menu-button');
     const mobileMenu = document.getElementById('mobile-menu');
 
     if (menuButton && mobileMenu) {
