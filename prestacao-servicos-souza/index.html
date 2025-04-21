@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prestação de Serviços Souza - Serviços de Faxina Profissional</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Serviços profissionais de limpeza residencial, comercial e pós-obra. Equipe especializada, produtos de qualidade e satisfação garantida.">
+    <meta name="keywords" content="faxina, limpeza, limpeza residencial, limpeza comercial, limpeza pós-obra, serviços de limpeza, faxineira">
+    <meta name="author" content="Prestação de Serviços Souza">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Prestação de Serviços Souza - Serviços de Faxina Profissional">
+    <meta property="og:description" content="Serviços profissionais de limpeza residencial, comercial e pós-obra. Equipe especializada, produtos de qualidade e satisfação garantida.">
+    <meta property="og:image" content="https://images.pexels.com/photos/4108715/pexels-photo-4108715.jpeg">
+    <meta property="og:url" content="https://www.prestacaosouza.com">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Prestação de Serviços Souza - Serviços de Faxina Profissional">
+    <meta name="twitter:description" content="Serviços profissionais de limpeza residencial, comercial e pós-obra. Equipe especializada, produtos de qualidade e satisfação garantida.">
+    <meta name="twitter:image" content="https://images.pexels.com/photos/4108715/pexels-photo-4108715.jpeg">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="https://images.pexels.com/photos/4108715/pexels-photo-4108715.jpeg?w=32">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!-- Tailwind Config -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            50: '#f0fdf4',
+                            100: '#dcfce7',
+                            200: '#bbf7d0',
+                            300: '#86efac',
+                            400: '#4ade80',
+                            500: '#10B981',
+                            600: '#059669',
+                            700: '#047857',
+                            800: '#065f46',
+                            900: '#064e3b'
+                        }
+                    },
+                    fontFamily: {
+                        'poppins': ['Poppins', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Schema.org markup for Local Business -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Prestação de Serviços Souza",
+        "image": "https://images.pexels.com/photos/4108715/pexels-photo-4108715.jpeg",
+        "description": "Serviços profissionais de limpeza residencial, comercial e pós-obra.",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Rua Example, 123",
+            "addressLocality": "São Paulo",
+            "addressRegion": "SP",
+            "postalCode": "01000-000",
+            "addressCountry": "BR"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": -23.550520,
+            "longitude": -46.633308
+        },
+        "url": "https://www.prestacaosouza.com",
+        "telephone": "+551199999999",
+        "priceRange": "$$",
+        "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday"
+            ],
+            "opens": "08:00",
+            "closes": "18:00"
+        }
+    }
+    </script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-poppins scroll-smooth">
+    <!-- Cookie Consent Banner -->
+    <div id="cookie-banner" class="cookie-banner">
+        <div class="container mx-auto px-6 py-4 flex flex-wrap items-center justify-between">
+            <p class="text-gray-700 mr-8 mb-4 md:mb-0">
+                Utilizamos cookies para melhorar sua experiência em nosso site. Ao continuar navegando, você concorda com nossa 
+                <a href="politica-privacidade.html" class="text-primary-600 hover:text-primary-700 underline">Política de Privacidade</a>.
+            </p>
+            <div class="flex gap-4">
+                <button onclick="acceptCookies()" class="bg-primary-600 text-white px-6 py-2 rounded-lg hover:bg-primary-700 transition duration-300">
+                    Aceitar
+                </button>
+                <button onclick="rejectCookies()" class="bg-gray-200 text-gray-700 px-6 py-2 rounded-lg hover:bg-gray-300 transition duration-300">
+                    Rejeitar
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skip to main content link for accessibility -->
+    <a href="#main-content" class="skip-to-main">
+        Pular para o conteúdo principal
+    </a>
+
+    <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/5511999999999" target="_blank" rel="noopener" class="floating-whatsapp bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg transition-all duration-300 transform hover:scale-110">
+    <i class="fab fa-whatsapp fa-2x"></i>
+  </a>
+
+  <header class="bg-white shadow-md fixed w-full z-20">
+    <div class="container mx-auto px-6 py-4">
+      <div class="flex justify-between items-center">
+        <div class="flex items-center space-x-4">
+          <img src="https://images.pexels.com/photos/4108715/pexels-photo-4108715.jpeg?auto=compress&cs=tinysrgb&w=50" alt="Prestação de Serviços Souza Logo" class="h-12 w-12 rounded-full object-cover" />
+          <h1 class="text-2xl font-bold text-primary-600">Prestação de Serviços Souza</h1>
+        </div>
+        <nav class="desktop-menu" aria-label="Menu principal">
+          <ul class="flex space-x-8 text-gray-700">
+            <li><a href="#home" class="hover:text-primary-600 transition-colors duration-300 font-medium">Início</a></li>
+            <li><a href="#about" class="hover:text-primary-600 transition-colors duration-300 font-medium">Sobre Nós</a></li>
+            <li><a href="#services" class="hover:text-primary-600 transition-colors duration-300 font-medium">Serviços</a></li>
+            <li><a href="#gallery" class="hover:text-primary-600 transition-colors duration-300 font-medium">Galeria</a></li>
+            <li><a href="#testimonials" class="hover:text-primary-600 transition-colors duration-300 font-medium">Depoimentos</a></li>
+            <li><a href="#calculator" class="hover:text-primary-600 transition-colors duration-300 font-medium">Calculadora</a></li>
+            <li><a href="#faq" class="hover:text-primary-600 transition-colors duration-300 font-medium">FAQ</a></li>
+            <li><a href="#booking" class="hover:text-primary-600 transition-colors duration-300 font-medium">Agendamento</a></li>
+            <li><a href="#contact" class="hover:text-primary-600 transition-colors duration-300 font-medium">Contato</a></li>
+          </ul>
+        </nav>
+        <!-- Mobile Menu Button -->
+        <button class="mobile-menu p-2 focus:outline-none" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobile-menu">
+          <i class="fas fa-bars text-2xl text-gray-600"></i>
+        </button>
+      </div>
+      <!-- Mobile Menu Panel -->
+      <div id="mobile-menu" class="hidden mobile-menu mt-4 pb-4" aria-hidden="true">
+        <nav aria-label="Menu mobile">
+          <ul class="space-y-4">
+            <li><a href="#home" class="block text-gray-700 hover:text-primary-600 transition-colors duration-300 font-medium">Início</a></li>
+            <li><a href="#about" class="block text-gray-700 hover:text-primary-600 transition-colors duration-300 font-medium">Sobre Nós</a></li>
+            <li><a href="#services" class="block text-gray-700 hover:text-primary-600 transition-colors duration-300 font-medium">Serviços</a></li>
+            <li><a href="#gallery" class="block text-gray-700 hover:text-primary-600 transition-colors duration-300 font-medium">Galeria</a></li>
+            <li><a href="#testimonials" class="block text-gray-700 hover:text-primary-600 transition-colors duration-300 font-medium">Depoimentos</a></li>
+            <li><a href="#calculator" class="block text-gray-700 hover:text-primary-600 transition-colors duration-300 font-medium">Calculadora</a></li>
+            <li><a href="#faq" class="block text-gray-700 hover:text-primary-600 transition-colors duration-300 font-medium">FAQ</a></li>
+            <li><a href="#booking" class="block text-gray-700 hover:text-primary-600 transition-colors duration-300 font-medium">Agendamento</a></li>
+            <li><a href="#contact" class="block text-gray-700 hover:text-primary-600 transition-colors duration-300 font-medium">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="pt-24">
+    <!-- Homepage Section -->
+    <section id="home" class="relative">
+      <div class="absolute inset-0">
+        <!-- Updated hero image showing professional cleaning -->
+        <img src="https://images.pexels.com/photos/4239091/pexels-photo-4239091.jpeg?auto=compress&cs=tinysrgb&w=1920" alt="Serviço de Faxina Profissional" class="w-full h-full object-cover" />
+        <div class="absolute inset-0 hero-gradient"></div>
+      </div>
+      <div class="relative container mx-auto px-6 py-32 text-center">
+        <div class="max-w-4xl mx-auto">
+          <h2 class="text-4xl md:text-6xl font-bold mb-6 text-white leading-tight">Serviços de Faxina Profissionais e Confiáveis</h2>
+          <p class="mb-8 text-lg md:text-xl text-gray-200">Transformamos ambientes com excelência em limpeza. Nossa equipe especializada garante resultados impecáveis para sua casa ou empresa.</p>
+          <div class="flex flex-col md:flex-row justify-center gap-6">
+            <a href="#booking" class="inline-block bg-primary-600 text-white font-semibold px-8 py-4 rounded-lg shadow-lg hover:bg-primary-700 transform hover:scale-105 transition duration-300">
+              Solicite um Orçamento
+            </a>
+            <a href="#services" class="inline-block bg-white text-primary-600 font-semibold px-8 py-4 rounded-lg shadow-lg hover:bg-gray-100 transform hover:scale-105 transition duration-300">
+              Conheça Nossos Serviços
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre Nós Section -->
+    <section id="about" class="py-24 bg-white">
+      <div class="container mx-auto px-6 max-w-6xl">
+        <h3 class="text-4xl font-bold mb-12 text-center text-gray-900">Sobre Nós</h3>
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+          <div class="space-y-6">
+            <p class="text-gray-700 text-lg leading-relaxed">
+              A Prestação de Serviços Souza é uma empresa especializada em serviços de limpeza, com mais de 10 anos de experiência no mercado. Nossa missão é proporcionar ambientes limpos, saudáveis e agradáveis para nossos clientes.
+            </p>
+            <p class="text-gray-700 text-lg leading-relaxed">
+              Nossa equipe é formada por profissionais altamente treinados e comprometidos com a excelência, utilizando produtos de qualidade e técnicas modernas de limpeza.
+            </p>
+            <div class="grid grid-cols-2 gap-6 mt-8">
+              <div class="bg-primary-50 p-6 rounded-xl">
+                <div class="text-primary-600 text-3xl font-bold mb-2">10+</div>
+                <div class="text-gray-700">Anos de Experiência</div>
+              </div>
+              <div class="bg-primary-50 p-6 rounded-xl">
+                <div class="text-primary-600 text-3xl font-bold mb-2">500+</div>
+                <div class="text-gray-700">Clientes Satisfeitos</div>
+              </div>
+            </div>
+            <ul class="space-y-4 text-gray-700">
+              <li class="flex items-center">
+                <i class="fas fa-check-circle text-primary-500 mr-3 text-xl"></i>
+                <span>Profissionais altamente qualificados</span>
+              </li>
+              <li class="flex items-center">
+                <i class="fas fa-check-circle text-primary-500 mr-3 text-xl"></i>
+                <span>Produtos de alta qualidade</span>
+              </li>
+              <li class="flex items-center">
+                <i class="fas fa-check-circle text-primary-500 mr-3 text-xl"></i>
+                <span>Pontualidade e compromisso</span>
+              </li>
+              <li class="flex items-center">
+                <i class="fas fa-check-circle text-primary-500 mr-3 text-xl"></i>
+                <span>Satisfação garantida</span>
+              </li>
+            </ul>
+          </div>
+          <div class="relative">
+            <!-- Updated team image showing cleaning professionals -->
+            <img src="https://images.pexels.com/photos/4108034/pexels-photo-4108034.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Nossa Equipe Profissional" class="rounded-2xl shadow-2xl w-full" />
+            <div class="absolute -bottom-6 -right-6 bg-primary-600 text-white p-6 rounded-xl shadow-xl transform rotate-3">
+              <p class="font-bold text-3xl">100%</p>
+              <p class="text-sm uppercase tracking-wider">Satisfação</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Serviços Section -->
+    <section id="services" class="py-24 bg-gray-50">
+      <div class="container mx-auto px-6 max-w-6xl">
+        <h3 class="text-4xl font-bold text-center mb-16 text-gray-900">Nossos Serviços</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+          <!-- Faxina Residencial -->
+          <div class="bg-white rounded-2xl shadow-xl overflow-hidden transform hover:scale-105 transition duration-300">
+            <div class="relative">
+              <!-- Updated residential cleaning image -->
+              <img src="https://images.pexels.com/photos/4107112/pexels-photo-4107112.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Faxina Residencial" class="w-full h-64 object-cover" />
+              <div class="absolute top-4 right-4 bg-primary-600 text-white px-4 py-2 rounded-full text-sm font-semibold">
+                Residencial
+              </div>
+            </div>
+            <div class="p-8">
+              <div class="flex items-center mb-6">
+                <i class="fas fa-home text-3xl text-primary-600 mr-4"></i>
+                <h4 class="text-2xl font-semibold">Faxina Residencial</h4>
+              </div>
+              <p class="text-gray-600 mb-6">Limpeza completa para sua casa, garantindo um ambiente saudável e agradável para você e sua família.</p>
+              <ul class="space-y-3 text-gray-600 mb-8">
+                <li class="flex items-center">
+                  <i class="fas fa-check text-primary-500 mr-3"></i>
+                  Limpeza de todos os cômodos
+                </li>
+                <li class="flex items-center">
+                  <i class="fas fa-check text-primary-500 mr-3"></i>
+                  Higienização de banheiros
+                </li>
+                <li class="flex items-center">
+                  <i class="fas fa-check text-primary-500 mr-3"></i>
+                  Limpeza de móveis e estofados
+                </li>
+                <li class="flex items-center">
+                  <i class="fas fa-check text-primary-500 mr-3"></i>
+                  Aspiração e lavagem de pisos
+                </li>
+              </ul>
+              <a href="#booking" class="block text-center bg-primary-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-primary-700 transition duration-300">
+                Agendar Serviço
+              </a>
+            </div>
+          </div>
+
+          <!-- Faxina Comercial -->
+          <div class="bg-white rounded-2xl shadow-xl overflow-hidden transform hover:scale-105 transition duration-300">
+            <div class="relative">
+              <!-- Updated commercial cleaning image -->
+              <img src="https://images.pexels.com/photos/4108843/pexels-photo-4108843.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Faxina Comercial" class="w-full h-64 object-cover" />
+              <div class="absolute top-4 right-4 bg-primary-600 text-white px-4 py-2 rounded-full text-sm font-semibold">
+                Comercial
+              </div>
+            </div>
+            <div class="p-8">
+              <div class="flex items-center mb-6">
+                <i class="fas fa-building text-3xl text-primary-600 mr-4"></i>
+                <h4 class="text-2xl font-semibold">Faxina Comercial</h4>
+              </div>
+              <p class="text-gray-600 mb-6">Serviços de limpeza profissional para escritórios, lojas e estabelecimentos comerciais.</p>
+              <ul class="space-y-3 text-gray-600 mb-8">
+                <li class="flex items-center">
+                  <i class="fas fa-check text-primary-500 mr-3"></i>
+                  Limpeza de escritórios
+                </li>
+                <li class="flex items-center">
+                  <i class="fas fa-check text-primary-500 mr-3"></i>
+                  Higienização de áreas comuns
+                </li>
+                <li class="flex items-center">
+                  <i class="fas fa-check text-primary-500 mr-3"></i>
+                  Limpeza de vidros e fachadas
+                </li>
+                <li class="flex items-center">
+                  <i class="fas fa-check text-primary-500 mr-3"></i>
+                  Manutenção periódica
+                </li>
+              </ul>
+              <a href="#booking" class="block text-center bg-primary-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-primary-700 transition duration-300">
+                Agendar Serviço
+              </a>
+            </div>
+          </div>
+
+          <!-- Limpeza Pós-Obra -->
+          <div class="bg-white rounded-2xl shadow-xl overflow-hidden transform hover:scale-105 transition duration-300">
+            <div class="relative">
+              <!-- Updated post-construction cleaning image -->
+              <img src="https://images.pexels.com/photos/4239036/pexels-photo-4239036.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Limpeza Pós-Obra" class="w-full h-64 object-cover" />
+              <div class="absolute top-4 right-4 bg-primary-600 text-white px-4 py-2 rounded-full text-sm font-semibold">
+                Pós-Obra
+              </div>
+            </div>
+            <div class="p-8">
+              <div class="flex items-center mb-6">
+                <i class="fas fa-hard-hat text-3xl text-primary-600 mr-4"></i>
+                <h4 class="text-2xl font-semibold">Limpeza Pós-Obra</h4>
+              </div>
+              <p class="text-gray-600 mb-6">Limpeza especializada para remover resíduos e deixar seu ambiente pronto para uso após reformas.</p>
+              <ul class="space-y-3 text-gray-600 mb-8">
+                <li class="flex items-center">
+                  <i class="fas fa-check text-primary-500 mr-3"></i>
+                  Remoção de resíduos
+                </li>
+                <li class="flex items-center">
+                  <i class="fas fa-check text-primary-500 mr-3"></i>
+                  Limpeza pesada
+                </li>
+                <li class="flex items-center">
+                  <i class="fas fa-check text-primary-500 mr-3"></i>
+                  Limpeza de acabamentos
+                </li>
+                <li class="flex items-center">
+                  <i class="fas fa-check text-primary-500 mr-3"></i>
+                  Higienização completa
+                </li>
+              </ul>
+              <a href="#booking" class="block text-center bg-primary-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-primary-700 transition duration-300">
+                Agendar Serviço
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-24 bg-white">
+      <div class="container mx-auto px-6 max-w-6xl">
+        <h3 class="text-4xl font-bold text-center mb-16 text-gray-900">Nossa Galeria</h3>
+        <div class="gallery-grid">
+          <div class="gallery-item fade-in">
+            <img src="https://images.pexels.com/photos/4107097/pexels-photo-4107097.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                 alt="Limpeza Residencial - Sala" 
+                 class="w-full h-64 object-cover rounded-lg" 
+                 loading="lazy">
+          </div>
+          <div class="gallery-item fade-in">
+            <img src="https://images.pexels.com/photos/4107098/pexels-photo-4107098.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                 alt="Limpeza Comercial - Escritório" 
+                 class="w-full h-64 object-cover rounded-lg" 
+                 loading="lazy">
+          </div>
+          <div class="gallery-item fade-in">
+            <img src="https://images.pexels.com/photos/4107099/pexels-photo-4107099.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                 alt="Limpeza Pós-obra" 
+                 class="w-full h-64 object-cover rounded-lg" 
+                 loading="lazy">
+          </div>
+          <div class="gallery-item fade-in">
+            <img src="https://images.pexels.com/photos/4107100/pexels-photo-4107100.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                 alt="Equipe em Ação" 
+                 class="w-full h-64 object-cover rounded-lg" 
+                 loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Price Calculator Section -->
+    <section id="calculator" class="py-24 bg-gray-50">
+      <div class="container mx-auto px-6 max-w-4xl">
+        <h3 class="text-4xl font-bold text-center mb-16 text-gray-900">Calculadora de Preços</h3>
+        <div class="calculator-form bg-white p-8 rounded-xl shadow-lg">
+          <form class="space-y-6" onsubmit="return false;">
+            <div>
+              <label for="calc-service" class="block mb-2 font-semibold text-gray-700">Tipo de Serviço</label>
+              <select id="calc-service" name="service" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-600 focus:border-transparent transition">
+                <option value="">Selecione um serviço</option>
+                <option value="residencial">Faxina Residencial (R$ 120/50m²)</option>
+                <option value="comercial">Faxina Comercial (R$ 150/50m²)</option>
+                <option value="pos-obra">Limpeza Pós-Obra (R$ 200/50m²)</option>
+              </select>
+            </div>
+            <div>
+              <label for="calc-area" class="block mb-2 font-semibold text-gray-700">Área Aproximada (m²)</label>
+              <input type="number" id="calc-area" name="area" min="1" placeholder="Digite a área em metros quadrados" 
+                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-600 focus:border-transparent transition">
+            </div>
+            <div>
+              <label for="calc-frequency" class="block mb-2 font-semibold text-gray-700">Frequência</label>
+              <select id="calc-frequency" name="frequency" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-600 focus:border-transparent transition">
+                <option value="unica">Única vez (sem desconto)</option>
+                <option value="semanal">Semanal (15% de desconto)</option>
+                <option value="quinzenal">Quinzenal (10% de desconto)</option>
+                <option value="mensal">Mensal (5% de desconto)</option>
+              </select>
+            </div>
+            <div id="calculator-result" class="calculator-result p-6 bg-gray-50 rounded-lg border border-gray-200">
+              <p class="text-center text-gray-600">Preencha os campos para calcular o valor</p>
+            </div>
+          </form>
+        </div>
+        <div class="mt-8 text-center text-gray-600">
+          <p class="text-sm">* Os valores são aproximados e podem variar conforme avaliação presencial.</p>
+          <p class="text-sm">* Desconto aplicado para contratos recorrentes.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-24 bg-white">
+      <div class="container mx-auto px-6 max-w-4xl">
+        <h3 class="text-4xl font-bold text-center mb-16 text-gray-900">Perguntas Frequentes</h3>
+        <div class="space-y-6">
+          <div class="faq-item">
+            <div class="faq-question">
+              <h4 class="text-xl font-semibold">Quais são os produtos utilizados na limpeza?</h4>
+              <i class="fas fa-chevron-down text-primary-600"></i>
+            </div>
+            <div class="faq-answer p-4">
+              <p class="text-gray-700">Utilizamos produtos profissionais de alta qualidade, biodegradáveis e seguros para todos os tipos de superfícies. Nossa equipe é treinada para usar a quantidade adequada de cada produto.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">
+              <h4 class="text-xl font-semibold">Qual o tempo médio de duração da faxina?</h4>
+              <i class="fas fa-chevron-down text-primary-600"></i>
+            </div>
+            <div class="faq-answer p-4">
+              <p class="text-gray-700">O tempo varia de acordo com o tamanho do ambiente e o tipo de serviço. Em média, uma faxina residencial padrão leva de 4 a 6 horas para ser concluída.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">
+              <h4 class="text-xl font-semibold">Como é feito o pagamento?</h4>
+              <i class="fas fa-chevron-down text-primary-600"></i>
+            </div>
+            <div class="faq-answer p-4">
+              <p class="text-gray-700">Aceitamos diversas formas de pagamento: dinheiro, PIX, cartões de débito e crédito. O pagamento é feito após a conclusão do serviço.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">
+              <h4 class="text-xl font-semibold">Vocês fornecem os materiais de limpeza?</h4>
+              <i class="fas fa-chevron-down text-primary-600"></i>
+            </div>
+            <div class="faq-answer p-4">
+              <p class="text-gray-700">Sim, fornecemos todos os produtos e equipamentos necessários para a realização do serviço. Utilizamos materiais profissionais e de alta qualidade.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-24 bg-white">
+      <div class="container mx-auto px-6 max-w-6xl">
+        <h3 class="text-4xl font-bold text-center mb-16 text-gray-900">O Que Dizem Nossos Clientes</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <!-- Testimonial 1 -->
+          <div class="bg-primary-50 p-8 rounded-2xl shadow-lg transform hover:scale-105 transition duration-300">
+            <div class="flex items-center mb-6">
+              <img src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=100" alt="Maria Silva" class="w-16 h-16 rounded-full object-cover mr-4" />
+              <div>
+                <p class="font-semibold text-lg">Maria Silva</p>
+                <p class="text-gray-600">Cliente Residencial</p>
+              </div>
+            </div>
+            <p class="text-gray-700 mb-6">"Excelente serviço! A equipe é muito profissional e cuidadosa. Minha casa ficou impecável e com um aroma maravilhoso. Super recomendo!"</p>
+            <div class="flex text-yellow-400">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div class="bg-primary-50 p-8 rounded-2xl shadow-lg transform hover:scale-105 transition duration-300">
+            <div class="flex items-center mb-6">
+              <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=100" alt="João Santos" class="w-16 h-16 rounded-full object-cover mr-4" />
+              <div>
+                <p class="font-semibold text-lg">João Santos</p>
+                <p class="text-gray-600">Cliente Comercial</p>
+              </div>
+            </div>
+            <p class="text-gray-700 mb-6">"Ótimo serviço de limpeza comercial. A equipe é pontual e muito profissional. Nosso escritório nunca esteve tão bem cuidado!"</p>
+            <div class="flex text-yellow-400">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+
+          <!-- Testimonial 3 -->
+          <div class="bg-primary-50 p-8 rounded-2xl shadow-lg transform hover:scale-105 transition duration-300">
+            <div class="flex items-center mb-6">
+              <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=100" alt="Ana Oliveira" class="w-16 h-16 rounded-full object-cover mr-4" />
+              <div>
+                <p class="font-semibold text-lg">Ana Oliveira</p>
+                <p class="text-gray-600">Cliente Pós-Obra</p>
+              </div>
+            </div>
+            <p class="text-gray-700 mb-6">"Fizeram um trabalho incrível na limpeza pós-obra. A equipe é muito dedicada e atenciosa aos detalhes. Recomendo!"</p>
+            <div class="flex text-yellow-400">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Agendamento Section -->
+    <section id="booking" class="py-24 bg-primary-50">
+      <div class="container mx-auto px-6 max-w-4xl">
+        <h3 class="text-4xl font-bold text-center mb-16 text-gray-900">Agende Seu Serviço</h3>
+        <div class="bg-white p-10 rounded-2xl shadow-xl">
+          <form action="mailto:contato@prestacaosouza.com" method="post" enctype="text/plain" class="space-y-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div>
+                <label for="name" class="block mb-2 font-semibold text-gray-700">Nome Completo</label>
+                <input type="text" id="name" name="name" required 
+                  class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-600 focus:border-transparent transition" />
+              </div>
+              <div>
+                <label for="email" class="block mb-2 font-semibold text-gray-700">Email</label>
+                <input type="email" id="email" name="email" required 
+                  class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-600 focus:border-transparent transition" />
+              </div>
+              <div>
+                <label for="phone" class="block mb-2 font-semibold text-gray-700">Telefone</label>
+                <input type="tel" id="phone" name="phone" required 
+                  class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-600 focus:border-transparent transition" />
+              </div>
+              <div>
+                <label for="service" class="block mb-2 font-semibold text-gray-700">Tipo de Serviço</label>
+                <select id="service" name="service" required 
+                  class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-600 focus:border-transparent transition">
+                  <option value="">Selecione um serviço</option>
+                  <option value="faxina-residencial">Faxina Residencial</option>
+                  <option value="faxina-comercial">Faxina Comercial</option>
+                  <option value="limpeza-pos-obra">Limpeza Pós-Obra</option>
+                </select>
+              </div>
+              <div>
+                <label for="date" class="block mb-2 font-semibold text-gray-700">Data Preferida</label>
+                <input type="date" id="date" name="date" required 
+                  class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-600 focus:border-transparent transition" />
+              </div>
+              <div>
+                <label for="time" class="block mb-2 font-semibold text-gray-700">Horário Preferido</label>
+                <select id="time" name="time" required 
+                  class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-600 focus:border-transparent transition">
+                  <option value="">Selecione um horário</option>
+                  <option value="manha">Manhã (8h - 12h)</option>
+                  <option value="tarde">Tarde (13h - 17h)</option>
+                </select>
+              </div>
+            </div>
+            <div>
+              <label for="notes" class="block mb-2 font-semibold text-gray-700">Observações Adicionais</label>
+              <textarea id="notes" name="notes" rows="4" 
+                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-600 focus:border-transparent transition"></textarea>
+            </div>
+            <button type="submit" 
+              class="w-full bg-primary-600 text-white font-semibold py-4 rounded-lg hover:bg-primary-700 transform hover:scale-105 transition duration-300">
+              Solicitar Agendamento
+            </button>
+          </form>
+        </div>
+        <div class="text-center mt-12">
+          <p class="text-gray-700 mb-6 text-lg">Prefere agendar pelo WhatsApp?</p>
+          <a href="https://wa.me/5511999999999" target="_blank" rel="noopener" 
+            class="inline-flex items-center space-x-3 bg-green-500 hover:bg-green-600 text-white font-semibold px-8 py-4 rounded-lg shadow-lg transform hover:scale-105 transition duration-300">
+            <i class="fab fa-whatsapp text-2xl"></i>
+            <span>Agende pelo WhatsApp</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-24 bg-white">
+      <div class="container mx-auto px-6 max-w-6xl">
+        <h3 class="text-4xl font-bold text-center mb-16 text-gray-900">Entre em Contato</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+          <div class="space-y-8">
+            <div>
+              <h4 class="text-2xl font-semibold mb-6">Informações de Contato</h4>
+              <div class="space-y-6">
+                <div class="flex items-center">
+                  <div class="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center mr-4">
+                    <i class="fas fa-phone text-primary-600 text-xl"></i>
+                  </div>
+                  <div>
+                    <p class="font-semibold">Telefone</p>
+                    <p class="text-gray-600">(11) 99999-9999</p>
+                  </div>
+                </div>
+                <div class="flex items-center">
+                  <div class="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center mr-4">
+                    <i class="fas fa-envelope text-primary-600 text-xl"></i>
+                  </div>
+                  <div>
+                    <p class="font-semibold">Email</p>
+                    <p class="text-gray-600">contato@prestacaosouza.com</p>
+                  </div>
+                </div>
+                <div class="flex items-center">
+                  <div class="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center mr-4">
+                    <i class="fas fa-map-marker-alt text-primary-600 text-xl"></i>
+                  </div>
+                  <div>
+                    <p class="font-semibold">Endereço</p>
+                    <p class="text-gray-600">São Paulo, SP</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="space-y-8">
+            <div>
+              <h4 class="text-2xl font-semibold mb-6">Horário de Atendimento</h4>
+              <div class="space-y-4">
+                <div class="flex justify-between items-center">
+                  <p class="text-gray-600">Segunda a Sexta</p>
+                  <p class="font-semibold">8:00 - 18:00</p>
+                </div>
+                <div class="flex justify-between items-center">
+                  <p class="text-gray-600">Sábado</p>
+                  <p class="font-semibold">8:00 - 12:00</p>
+                </div>
+                <div class="flex justify-between items-center">
+                  <p class="text-gray-600">Domingo</p>
+                  <p class="font-semibold">Fechado</p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h4 class="text-2xl font-semibold mb-6">Redes Sociais</h4>
+              <div class="flex space-x-4">
+                <a href="#" class="text-gray-600 hover:text-primary-600 transition-colors">
+                  <i class="fab fa-facebook fa-2x"></i>
+                </a>
+                <a href="#" class="text-gray-600 hover:text-primary-600 transition-colors">
+                  <i class="fab fa-instagram fa-2x"></i>
+                </a>
+                <a href="#" class="text-gray-600 hover:text-primary-600 transition-colors">
+                  <i class="fab fa-linkedin fa-2x"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+      <div class="container mx-auto px-6">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
+          <div>
+            <h4 class="text-xl font-semibold mb-4">Sobre Nós</h4>
+            <p class="text-gray-400">
+              Prestação de Serviços Souza - Sua escolha confiável para serviços de limpeza profissional desde 2014.
+            </p>
+          </div>
+          <div>
+            <h4 class="text-xl font-semibold mb-4">Links Rápidos</h4>
+            <ul class="space-y-2">
+              <li><a href="#services" class="text-gray-400 hover:text-white transition-colors">Nossos Serviços</a></li>
+              <li><a href="#booking" class="text-gray-400 hover:text-white transition-colors">Agendar Serviço</a></li>
+              <li><a href="#testimonials" class="text-gray-400 hover:text-white transition-colors">Depoimentos</a></li>
+              <li><a href="#contact" class="text-gray-400 hover:text-white transition-colors">Contato</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="text-xl font-semibold mb-4">Contato</h4>
+            <ul class="space-y-2">
+              <li class="flex items-center text-gray-400">
+                <i class="fas fa-phone mr-2"></i>
+                (11) 99999-9999
+              </li>
+              <li class="flex items-center text-gray-400">
+                <i class="fas fa-envelope mr-2"></i>
+                contato@prestacaosouza.com
+              </li>
+              <li class="flex items-center text-gray-400">
+                <i class="fas fa-map-marker-alt mr-2"></i>
+                São Paulo, SP
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="text-xl font-semibold mb-4">Redes Sociais</h4>
+            <div class="flex space-x-4">
+              <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                <i class="fab fa-facebook fa-2x"></i>
+              </a>
+              <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                <i class="fab fa-instagram fa-2x"></i>
+              </a>
+              <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                <i class="fab fa-linkedin fa-2x"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="border-t border-gray-700 mt-8 pt-8 text-center">
+          <p class="text-gray-400">&copy; 2024 Prestação de Serviços Souza. Todos os direitos reservados.</p>
+          <div class="mt-4 space-x-4">
+            <a href="politica-privacidade.html" class="text-gray-400 hover:text-white transition-colors">Política de Privacidade</a>
+            <span class="text-gray-600">|</span>
+            <a href="termos-servico.html" class="text-gray-400 hover:text-white transition-colors">Termos de Serviço</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top bg-primary-600 text-white p-3 rounded-full shadow-lg" aria-label="Voltar ao topo">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="assets/js/main.js"></script>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
